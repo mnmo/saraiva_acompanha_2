@@ -9,7 +9,7 @@ body{
   height:1000px;
 }
 .gt-ie8 body{
-    visibility:hidden;  
+    visibility:hidden;
 }
 #bg_gradiente{
   width:770px;
@@ -196,6 +196,7 @@ body.interna #imagemap_bg{
   font-weight:normal;
   margin-top:180px;
   padding-top:370px;
+  white-space: nowrap;
 }
 #chamada{
   position:absolute;
@@ -312,8 +313,14 @@ body.interna #texto_logo{
   font-size:15px;
   line-height:15px;
   left:34px;
-  top:196px;
+  top:135px;
+  height:60px;
   width:160px;
+}
+body.interna #texto_logo p{
+  width:160px;
+  margin-top:60px;
+  margin-bottom:0;
 }
 #main #sidebar footer{
   position:absolute;
@@ -414,7 +421,7 @@ body.interna #texto_logo{
 body.slug_contato #content h3,
 body.slug_adquira #content h3{
   position:relative;
-} 
+}
 body.slug_acompanha #main{
   background-repeat:no-repeat;
 }

@@ -1,0 +1,139 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js gt-ie8" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/b/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+
+  <title></title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=0.8">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+  <!-- All JavaScript at the bottom, except this Modernizr build incl. Respond.js
+       Respond is a polyfill for min/max-width media queries. Modernizr enables HTML5 elements & feature detects;
+       for optimal performance, create your own custom Modernizr build: www.modernizr.com/download/ -->
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body class="home">
+  <div id="pre_sidebar">
+    <div id="stripe_tutorial"></div>
+    <div id="stripe_contato"></div>
+    <div id="stripe_saraiva"></div>
+  </div>
+  <div role="main" id="main">
+      <div id="linhas_over">
+        <img id="linha_avaliacao"             src="./img/linha_avaliacao.png" />
+        <img id="linha_midiateca"             src="./img/linha_midiateca.png" />
+        <img id="linha_atividades_multimidia" src="./img/linha_licoes.png" />
+        <img id="linha_saraiva_educa"  src="./img/linha_saraiva.png" />
+      </div>
+    <!--[if gt IE 8]><!-->
+      <map id="imagemap" name="imagemap">
+        <area shape="poly" id="hover_avaliacao"             href="./avaliacao"  coords="151,76,173,116,218,95,262,95,309,105,356,134,389,178,402,212,446,203,426,152,397,113,356,80,299,54,247,49,194,59,164,69,164,69,156,73" />
+        <area shape="poly" id="hover_midiateca"             href="./midiateca"  coords="369,37,348,76,370,87,390,106,410,128,423,148,427,153,464,129,438,95,415,69,391,50" />
+        <area shape="poly" id="hover_atividades_multimidia" href="./atividades"     coords="401,212,445,202,450,234,449,265,445,297,433,330,417,362,391,392,360,418,336,430,317,391,354,369,382,334,401,290,406,255,405,233" />
+        <area shape="poly" id="hover_saraiva_educa"         href="./saraiva"    coords="425,150,463,131,482,173,491,210,494,255,490,296,485,314,443,301,451,264,451,225,439,181,429,158" />
+      </map>
+      <div id="menu_principal">
+        <div id="item_avaliacao"></div>
+        <div id="item_atividades_multimidia"></div>
+        <div id="item_midiateca"></div>
+        <div id="item_saraiva_educa"></div>
+        <div id="logo_mascara"><img id ="imagemap_bg" src="./img/menu_0_acompanha_QUADRADO.png" usemap="#imagemap"></div>
+      </div>
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+    <map id="imagemap" name="imagemap">
+      <area shape="poly" id="hover_avaliacao"             href="./avaliacao" coords="1,98,20,137,53,122,89,115,126,116,162,128,196,148,223,175,246,218,251,234,296,222,274,175,251,140,198,96,141,76,70,74,25,87" />
+      <area shape="poly" id="hover_midiateca"             href="./midiateca" coords="197,95,218,58,255,81,283,109,311,148,313,154,275,173,250,136,218,110" />
+      <area shape="poly" id="hover_atividades_multimidia" href="./atividades" coords="250,235,255,269,250,307,240,342,205,387,168,413,187,452,231,422,262,386,288,339,299,285,298,253,294,224" />
+      <area shape="poly" id="hover_saraiva_educa"         href="./saraiva" coords="275,173,312,152,328,185,341,236,344,294,335,333,291,321,298,292,299,238,284,195" />
+    </map>
+    <img id ="imagemap_bg" src="./img/iefallback_home.png" usemap="#imagemap">
+    <![endif]-->
+    <div id="texto_logo">
+      <p><a href="./acompanha/">ACOMPANHA APRENDIZAGEM</a></p>
+    </div>
+    <div id="assinatura">
+      <p><a href="./acompanha/">Sua escola ainda mais atual.</a></p>
+    </div>
+    <div id="chamada">
+      <p><a class='ajax' href="video.html">Assista ao Tutorial</a></p>
+      <p class="fale_conosco" ><a href="http://www.editorasaraiva.com.br/faleConosco.aspx" target="_blank">Fale Conosco</a></p>
+      <p class="ja_eh_usuario" ><a href="http://www.saraivaacompanha.com.br">Já é usuário</a></p>
+    </div>
+    <div id="saraiva_educa_info" class="info_box">
+      <p>
+        Possui apresentações, sugestões de avaliações, banco de questões, textos extras, artigos, imagens, animações e simulações dos materiais encontrados. Saiba mais.
+      </p>
+    </div>
+    <div id="avaliacao_info" class="info_box">
+      <p>
+        Diagnostica e avalia a aprendizagem. Possui milhares de questões de vestibulares e das habilidades avaliadas no ENEM. Saiba mais.
+      </p>
+    </div>
+    <div id="atividades_multimidia_info" class="info_box">
+      <p>
+        Possui atividades distribuídas pelas quatro áreas do conhecimento. Todas podem ser editadas pelo professor. <strong>Módulo disponível a partir de maio.</strong> Saiba mais.
+      </p>
+    </div>
+    <div id="midiateca_info" class="info_box">
+      <p>
+        Catálogo de <i>links</i> com textos, planos de aula, simulações e animações disponíveis na internet. Saiba mais.
+      </p>
+    </div>
+  </div>
+
+  <footer>
+
+  </footer>
+
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!--[if IE 6]>
+  <script src="js/DD_belatedPNG_0.0.8a.min.js"></script>
+  <![endif]-->
+
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/mylibs/jquery-1.7.1.min.js"><\/script>')</script>
+
+
+  <!-- scripts concatenated and minified via build script -->
+  <script defer src="js/mylibs/jquery.colorbox.min.js"></script>
+  <script defer src="js/mylibs/jquery.transform.light.js"></script>
+  <script defer src="js/plugins.js"></script>
+  <script defer src="js/script.js"></script>
+  <!-- end scripts -->
+
+
+  <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
+       mathiasbynens.be/notes/async-analytics-snippet -->
+  <script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+</body>
+</html>
